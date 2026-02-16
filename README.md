@@ -11,7 +11,7 @@ ICE connection troubleshooting scripts for testing market data connectivity acro
 ## Run ICE Client Test
 
 **Development:**
-`kubectl exec -n market-data debug-pod-1 -- bash -c "cd /tmp && ./clienttest.sh -u TRRep_WT_Extra -p bruT2ic8 -P 156.48.15.1 7022 cmd.txt"`
+`kubectl exec -n market-data debug-pod-1 -- bash -c "cd /tmp && ./clienttest.sh -u TRRep_WT_Extra -p pwd -P 156.48.15.1 7022 cmd.txt"`
 
 **Staging:**
-`kubectl exec -n market-data debug-pod-1 -- bash -c "cd /tmp && ./clienttest.sh -u TRRepWTL2Prod2 -p Stiw0cRu -P 156.48.15.1 7022 cmd.txt"`
+`kubectl exec -n market-data debug-pod-1 -- bash -c "cd /tmp && ./clienttest.sh -u TRRepWTL2Prod2 -p pwd -P 156.48.15.1 7022 cmd.txt"`
